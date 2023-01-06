@@ -7,7 +7,7 @@ const about = {
   name: 'Luisa Boina Coltro',
   role: 'Desenvolvedora Full Stack Junior',
   description:
-    'Eu sou uma desenvolvedora Full Stack Junior, estou estudando para me tornar uma desenvolvedora Full Stack Pleno. Estou profundindo o meu conhecimento em React, Next.js, Node.js, Express, Git, HTML, CSS, Javascript, Material UI, Tailwind CSS.',
+    'Eu sou uma desenvolvedora Full Stack Junior, estou estudando para me tornar uma desenvolvedora Full Stack Pleno. Estou aprofundando o meu conhecimento em React, Next.js, Node.js, Express, Git, HTML, CSS, Javascript, Material UI, Tailwind CSS.',
   resume: 'cv.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/luisa-boina-coltro-02294014b/',
