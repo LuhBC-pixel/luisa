@@ -1,25 +1,21 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
   homepage: 'https://meu-site-drab.vercel.app/',
   title: 'LBC.',
-}
+};
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
   name: 'Luisa Boina Coltro',
-  role: 'Systems Documenter / Documentadora de Sistemas',
+  role: 'Desenvolvedora Full Stack Junior',
   description:
-    'I work as a Systems Documenter at Microdata, I\'m finishing my second degree, the course is Systems Analysis and Development. I\'ve been programming for 1 year /// Eu trabalho como Documentadora de Sistemas na Microdata, estou terminando a minha segunda graduação, o curso é Análise e Desenvolvimento de Sistemas. Eu programo faz 1 ano',
-  resume: 'https://github.com/LuhBC-pixel',
+    'Eu sou uma desenvolvedora Full Stack Junior, estou estudando para me tornar uma desenvolvedora Full Stack Pleno. Estou profundindo o meu conhecimento em React, Next.js, Node.js, Express, Git, HTML, CSS, Javascript, Material UI, Tailwind CSS.',
+  resume: 'cv.pdf',
   social: {
-    linkedin: 'https://www.linkedin.com/in/luisa-boina-02294014b/',
+    linkedin: 'https://www.linkedin.com/in/luisa-boina-coltro-02294014b/',
     github: 'https://github.com/LuhBC-pixel',
   },
-}
+};
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
     name: 'Github Search',
     description:
@@ -29,42 +25,74 @@ const projects = [
     livePreview: 'https://github-search-wine-seven.vercel.app/',
   },
   {
-    name: 'Contador Dias',
-    description:
-      'Conta quanto tempo falta para o fim do ano',
-    stack: ['CSS', 'date-fns', 'React'],
-    sourceCode: 'https://github.com/LuhBC-pixel/contador-dias',
-    livePreview: 'https://contador-dias.vercel.app/',
+    name: 'Docere',
+    description: 'Site de uma escola fictícia',
+    stack: ['React', 'Nextjs', 'Chackra UI', 'Vercel'],
+    sourceCode: 'https://github.com/LuhBC-pixel/Docere',
+    livePreview: 'https://docere.vercel.app/',
   },
   {
-    name: 'Aula de Free Code Camp',
+    name: 'NLW Web - Rocketseat',
     description:
-      'Aula de Free Code Camp, como usar melhor o CSS. Testar o meu conhecimento com Javascript',
-    stack: ['CSS', 'HTML', 'Javascript'],
-    sourceCode: 'https://github.com/LuhBC-pixel/freeCodeCamp',
-    livePreview: 'https://github.com/LuhBC-pixel/freeCodeCamp',
+      'Evento de nlw da rocketseat, aprimorei o site com novas funcionalidades. Obs: O backend está fora do ar, então não é possível ver o site com novas funcionalidades.',
+    stack: [
+      'React',
+      'Vite',
+      'tailwind CSS',
+      'typescript',
+      'axios',
+      'react-hook-form',
+      'kenn-slider',
+    ],
+    sourceCode: 'https://github.com/LuhBC-pixel/nlw-web',
+    livePreview: 'https://github.com/LuhBC-pixel/nlw-web',
   },
-]
+  {
+    name: 'NLW Server - Rocketseat',
+    description:
+      'Evento de nlw da rocketseat, adicionei a validação dos dados usando o Zod. Mas o backend está fora do ar.',
+    stack: [
+      'Node',
+      'express',
+      'typescript',
+      'sqlite',
+      'prisma',
+      'zod',
+      'railway',
+    ],
+    sourceCode: 'https://github.com/LuhBC-pixel/nlw-server',
+    livePreview: 'https://github.com/LuhBC-pixel/nlw-server',
+  },
+];
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
   'JavaScript',
+  'TypeScript',
   'React',
   'Next.js',
+  'Vite',
+  'React-Native',
+  'Expo',
   'Material UI',
   'Tailwind CSS',
+  'Chackra UI',
+  'Styled Components',
   'Git',
   'Node.js',
   'Express',
-  'Firebase',
-]
+  'Axios',
+  'Zod',
+  'React Hook Form',
+  'Prisma',
+  'Github',
+  'Vercel',
+  'Railway',
+];
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
   email: 'bc.luisa@yahoo.com.br',
-}
+};
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, skills, contact };
